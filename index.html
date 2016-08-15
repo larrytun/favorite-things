@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>favorite things</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="things">
+        <div class="form-group">
+         <label for="fav1">Favorite Food: </label>
+         <input id="fav1" class="form-control" type="text">
+        </div>
+         <div class="form-group">
+          <label for="fav2">Favorite Animal: </label>
+          <input id="fav2" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+         <label for="fav3">Favorite State: </label>
+         <input id="fav3" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="fav4">Favorite Band: </label>
+          <input id="fav4" class="form-control" type="text">
+        </div>
+           <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+      <div class="results">
+        <p>Your favorite things are: <span id="food"></span>, <span id="animal"></span>, <span id="state"></span>, &amp; <span id="band"></span>!</p>
+      </div>
+  </div>
+  </body>
+</html>
